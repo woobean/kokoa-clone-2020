@@ -9,32 +9,38 @@
 }
 
 .user-component__avatar {
-  width: 70px;
-  height: 70px;
+  width: 52px;
+  height: 52px;
   border-radius: 30px;
   margin-right: 20px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
 .user-component__title {
-  font-weight: 600;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .user-component__subtitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   margin-top: 8px;
-  font-size: 17px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
 
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
+  border-radius: 26px;
 }
 
 .user-component__avatar--sm {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
+  width: 44px;
+  height: 44px;
+  border-radius: 18px;
 }
 
 .user-component__title--not-bold {
@@ -51,4 +57,9 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__column__more {
+  display: flex;
+  align-items: center;
 }

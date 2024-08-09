@@ -55,6 +55,7 @@
   height: 15px;
   border-radius: 50%;
   margin-right: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
 .open-post__member-count {
@@ -70,16 +71,19 @@
 }
 
 .open-post__member-status {
-  color: #ffb0e0;
+  color: #7388ff;
 }
 
 .open-post__photo {
   position: relative;
+  background-color: #eeeeee;
+  border-radius: 8px;
 }
 
 .open-post__photo img {
   width: 120px;
   height: 120px;
+  object-fit: cover;
   border-radius: 10px;
 }
 .open-post__heart-count {
@@ -92,10 +96,10 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-  font-size: 12px;
 }
 
 .open-post__heart-count span {
+  font-size: 12px;
   margin-left: 3px;
 }
 

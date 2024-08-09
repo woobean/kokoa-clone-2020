@@ -3,38 +3,156 @@
 }
 
 .more-suggestions {
-  margin-top: 50px;
-  border-top: var(--main-border);
-  padding-top: 40px;
-}
-
-.more-suggestions__title {
-  margin-bottom: 30px;
+  padding: 16px 0;
 }
 
 .more-suggestions__icons {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 12px;
+  color: #333333;
 }
 
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
-  border-radius: 10px;
+  width: 48px;
+  height: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
-.more-suggestions__icon-image i {
+.more-suggestions__icon-image span {
   font-size: 32px;
-  color: white;
+}
+
+.wallet {
+  width: 100%;
+  margin: 16px 0 0 -16px;
+  padding: 16px;
+  background-color: var(--yellow);
+}
+
+.wallet__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wallet__title {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.wallet__btns {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.wallet__btn {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+  font-size: 12px;
+}
+
+.wallet__btn span:first-child {
+  font-size: 16px;
+}
+
+.wallet__experience {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin: 16px 0;
+  background-color: #ffe;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500px;
+}
+
+.wallet__experience img {
+  margin-right: 8px;
+  width: 18px;
+}
+
+.wallet__experience span:last-child {
+  margin-left: auto;
+}
+
+.wallet__money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wallet__money img {
+  height: 24px;
+}
+
+.wallet__fnc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.wallet__links {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 12px;
+}
+
+.wallet__history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+  font-size: 12px;
+}
+
+.wallet__history span:first-child {
+  font-size: 16px;
+}
+
+.more-ad {
+  margin-top: 16px;
+  display: block;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: opacity 0.2s;
+}
+
+.more-ad:hover {
+  opacity: 0.5;
+}
+
+.more-ad img {
+  display: block;
+  width: 100%;
+}
+
+.more-add__badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
 }

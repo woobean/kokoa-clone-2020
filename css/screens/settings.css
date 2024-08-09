@@ -7,10 +7,16 @@
   justify-content: space-between;
 }
 
-.settings__setting i {
-  opacity: 0.8;
-  margin-right: 20px;
-  font-size: 22px;
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+  font-size: 14px;
+}
+
+.settings__setting-column .material-symbols-outlined {
+  font-size: 18px;
 }
 
 .settings__setting-column:last-child {
