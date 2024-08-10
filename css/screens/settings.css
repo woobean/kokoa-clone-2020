@@ -1,10 +1,20 @@
+.settings-list {
+  margin-top: 16px;
+  padding-top: 8px;
+  border-top: var(--main-border);
+}
+
 .settings__setting {
   padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.025);
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.settings__setting:last-child {
+  border-bottom: unset;
 }
 
 .settings__setting-column {

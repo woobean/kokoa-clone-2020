@@ -39,27 +39,128 @@
 
     <main class="main-screen">
       <div class="main-screen__inner">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/profile.svg"
+              class="user-component__avatar user-component__avatar--xl"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">User</h4>
+              <h6 class="user-component__subtitle">+82 10-****-****</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__column__btn">Management</div>
+          </div>
+        </div>
         <ul class="settings-list">
           <li class="settings__setting">
             <div class="settings__setting-column">
-              <span class="material-symbols-outlined">campaign</span>
-              <span>Notices</span>
+              <span class="material-symbols-outlined">manage_accounts</span>
+              <span>Account</span>
+            </div>
+            <div class="settings__setting-column">user@email.co.kr</div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">lock</span>
+              <span>Privacy / Security</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">person</span>
+              <span>Frends</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">notifications</span>
+              <span>Alarm</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">brightness_6</span>
+              <span>Display</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">contrast</span>
+              <span>Theme</span>
+            </div>
+            <div class="settings__setting-column">System setup mode</div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">chat_bubble</span>
+              <span>Chat</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">mood</span>
+              <span>Emoticon</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">call</span>
+              <span>Call</span>
             </div>
             <div class="settings__setting-column"></div>
           </li>
           <li class="settings__setting">
             <div class="settings__setting-column">
               <span class="material-symbols-outlined">science</span>
-              <span>Kakao Lab</span>
+              <span>Lab</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">more_horiz</span>
+              <span>Etc</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+        </ul>
+        <ul class="settings-list">
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">campaign</span>
+              <span>Notifications</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">waving_hand</span>
+              <span>Guide</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <span class="material-symbols-outlined">help</span>
+              <span>Customer Center / Operating Policy</span>
             </div>
             <div class="settings__setting-column"></div>
           </li>
           <li class="settings__setting">
             <div class="settings__setting-column">
               <span class="material-symbols-outlined">info</span>
-              <span>Version</span>
+              <span>App Management</span>
             </div>
-            <div class="settings__setting-column">Latest Version</div>
+            <div class="settings__setting-column"></div>
           </li>
         </ul>
       </div>
@@ -68,24 +169,35 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <span class="material-symbols-outlined active">person</span>
+          <a class="nav__link active" href="friends.html">
+            <span class="material-symbols-outlined">person</span>
+            <span>Frends</span>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
+          <a class="nav__link active" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <span class="material-symbols-outlined active">forum</span>
+            <span class="material-symbols-outlined">chat_bubble</span>
+            <span>Chats</span>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <span class="material-symbols-outlined active">search</span>
+          <a class="nav__link active" href="open_chat.html">
+            <span class="nav__notification badge">4</span>
+            <span class="material-symbols-outlined">forum</span>
+            <span>Open Chats</span>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="material-symbols-outlined active">more_horiz</span>
+          <a class="nav__link active" href="shop.html">
+            <span class="material-symbols-outlined">shopping_bag</span>
+            <span>Shopping</span>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link active" href="more.html">
+            <span class="material-symbols-outlined">more_horiz</span>
+            <span>More</span>
           </a>
         </li>
       </ul>

@@ -42,6 +42,12 @@ body {
   padding-bottom: var(--horizontal-space);
 }
 
+.banner-space {
+  padding-top: 16px;
+  border-top: var(--main-border);
+  margin-top: 16px;
+}
+
 .banner {
   margin-bottom: 16px;
   display: block;

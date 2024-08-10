@@ -1,21 +1,66 @@
 .icon-row {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  column-gap: 6px;
+  margin: 32px 0;
+  height: 100px;
 }
 
 .icon-row__icon {
+  position: relative;
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1;
-}
-
-.icon-row__icon span:first-child {
-  font-size: 36px;
-}
-
-.icon-row__icon span:last-child {
-  margin-top: 12px;
+  width: 72px;
+  row-gap: 12px;
   font-size: 11px;
+}
+
+.icon-row__icon__circle {
+  border: 1px solid #dddddd;
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-row__icon__circle span {
+  font-size: 32px;
+}
+
+.open-tab {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  column-gap: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.open-tab__item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.open-tab__item.active {
+  background-color: black;
+  color: white;
+}
+
+.open-tab__item:first-child {
+  background-color: #edffff;
 }
