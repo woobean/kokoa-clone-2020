@@ -24,6 +24,12 @@
   color: #333333;
 }
 
+@media screen and (max-width: 480px) {
+  .nav__link {
+    padding: 0 6px;
+  }
+}
+
 .nav__link span {
   transition: opacity 0.2s;
 }

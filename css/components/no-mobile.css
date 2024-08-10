@@ -8,10 +8,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 8px;
+  row-gap: 16px;
   font-size: 20px;
   font-weight: 600;
   top: 0;
+}
+
+.no-mobile span:first-child {
+  font-size: 64px;
 }
 
 @media screen and (max-width: 640px) {
